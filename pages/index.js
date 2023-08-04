@@ -88,7 +88,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt=""/>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
               </h3>
@@ -156,6 +156,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -165,6 +166,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web2}
+                alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -174,6 +176,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -183,6 +186,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web4}
+                alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -192,6 +196,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web5}
+                alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -201,6 +206,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web6}
+                alt=""
               />
             </div>
           </div>
