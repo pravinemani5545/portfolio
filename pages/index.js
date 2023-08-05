@@ -105,6 +105,54 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section class='pt-10 overflow-hidden bg-gray-50 md:pt-0 sm:pt-16 2xl:pt-16'>
+          <div class='px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl'>
+            <div class='grid items-center grid-cols-1 md:grid-cols-2'>
+              <div>
+                <h2 class='text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl'>
+                  Hey 👋 I am
+                  <br class='block sm:hidden' />
+                  Jenny Carter
+                </h2>
+                <p class='max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8'>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+
+                <p class='mt-4 text-xl text-gray-600 md:mt-8'>
+                  <span class='relative inline-block'>
+                    <span class='absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300'></span>
+                    <span class='relative'> Have a question? </span>
+                  </span>
+                  <br class='block sm:hidden' />
+                  Ask me on{' '}
+                  <a
+                    href='#'
+                    title=''
+                    class='transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline'
+                  >
+                    Twitter
+                  </a>
+                </p>
+              </div>
+
+              <div class='relative'>
+                <img
+                  class='absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2'
+                  src='https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg'
+                  alt=''
+                />
+
+                <img
+                  class='relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110'
+                  src='toronto.png'
+                  alt=''
+                />
+              </div>
+            </div>
+          </div>
+        </section>
         <section>
           <div>
             <h3 className='text-3xl py-1 dark:text-white '>Services I offer</h3>
@@ -297,98 +345,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section class='pt-10 overflow-hidden bg-gray-50 md:pt-0 sm:pt-16 2xl:pt-16'>
-          <div class='px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl'>
-            <div class='grid items-center grid-cols-1 md:grid-cols-2'>
-              <div>
-                <h2 class='text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl'>
-                  Hey 👋 I am
-                  <br class='block sm:hidden' />
-                  Jenny Carter
-                </h2>
-                <p class='max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8'>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet.
-                </p>
-
-                <p class='mt-4 text-xl text-gray-600 md:mt-8'>
-                  <span class='relative inline-block'>
-                    <span class='absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300'></span>
-                    <span class='relative'> Have a question? </span>
-                  </span>
-                  <br class='block sm:hidden' />
-                  Ask me on{' '}
-                  <a
-                    href='#'
-                    title=''
-                    class='transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline'
-                  >
-                    Twitter
-                  </a>
-                </p>
-              </div>
-
-              <div class='relative'>
-                <img
-                  class='absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2'
-                  src='https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg'
-                  alt=''
-                />
-
-                <img
-                  class='relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110'
-                  src='https://cdn.rareblocks.xyz/collection/celebration/images/team/1/business-woman.png'
-                  alt=''
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-        <div id='about' class='relative bg-white overflow-hidden mt-16'>
-          <div class='max-w-7xl mx-auto'>
-            <div class='relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32'>
-              <svg
-                class='hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2'
-                fill='currentColor'
-                viewBox='0 0 100 100'
-                preserveAspectRatio='none'
-                aria-hidden='true'
-              >
-                <polygon points='50,0 100,0 50,100 0,100'></polygon>
-              </svg>
-
-              <div class='pt-1'></div>
-
-              <main class='mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28'>
-                <div class='sm:text-center lg:text-left'>
-                  <h2 class='my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl'>
-                    About me
-                  </h2>
-
-                  <p>
-                    Donec porttitor, enim ut dapibus lobortis, lectus sem
-                    tincidunt dui, eget ornare lectus ex non libero. Nam rhoncus
-                    diam ultrices porttitor laoreet. Ut mollis fermentum ex, vel
-                    viverra lorem volutpat sodales. In ornare porttitor odio sit
-                    amet laoreet. Sed laoreet, nulla a posuere ultrices, purus
-                    nulla tristique turpis, hendrerit rutrum augue quam ut est.
-                    Fusce malesuada posuere libero, vitae dapibus eros facilisis
-                    euismod. Sed sed lobortis justo, ut tincidunt velit. Mauris
-                    in maximus eros.
-                  </p>
-                </div>
-              </main>
-            </div>
-          </div>
-          <div class='lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2'>
-            <img
-              class='h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full'
-              src='https://cdn.pixabay.com/photo/2016/03/23/04/01/woman-1274056_960_720.jpg'
-              alt=''
-            />
-          </div>
-        </div>
       </main>
     </div>
   );
