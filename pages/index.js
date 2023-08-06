@@ -153,10 +153,52 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section class='overflow-hidden bg-gray-50 mb-8 rounded-2xl'>
+          <div class='mx-auto'>
+            <div class='grid items-center grid-cols-1 md:grid-cols-2'>
+              <div class='justify-start px-8 py-4'>
+                <h2 class='text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl'>
+                  About me!
+                </h2>
+                <p class='max-w-2xl mt-3 text-xl leading-relaxed text-gray-600 md:mt-8'>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+
+                <p class='mt-4 text-xl text-gray-600 md:mt-8'>
+                  <span class='relative inline-block'>
+                    <span class='absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300'></span>
+                    <span class='relative'> Have a question? </span>
+                  </span>
+                  <br class='block sm:hidden' />
+                  Ask me on{' '}
+                  <a
+                    href='#'
+                    title=''
+                    class='transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline'
+                  >
+                    Twitter
+                  </a>
+                </p>
+              </div>
+
+              <div class='relative justify-end'>
+                <img
+                  class='relative w-full xl:mx-auto 2xl:origin-bottom 2xl:scale-110 rounded-md'
+                  src='toronto.jpg'
+                  alt=''
+                />
+              </div>
+            </div>
+          </div>
+        </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1 dark:text-white '>Services I offer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
+            <h3 className='mt-12 font-bold text-4xl dark:text-white '>
+              Skills & Technologies:
+            </h3>
+            <p className='text-xl py-6 text-gray-800 dark:text-gray-200'>
               Since the beginning of my journey as a freelance designer and
               developer, I&apos;ve done remote work for
               <span className='text-teal-500'> agencies </span>
@@ -164,7 +206,7 @@ export default function Home() {
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
+            <p className='text-xl text-gray-800 dark:text-gray-200'>
               I offer from a wide range of services, including brand design,
               programming and teaching.
             </p>
@@ -172,46 +214,52 @@ export default function Home() {
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1'>
               <Image src={design} width={100} height={100} alt='' />
-              <h3 className='text-lg font-medium pt-8 pb-2  '>
+              <h3 className='text-xl font-bold pt-8 pb-2  '>
                 Beautiful Designs
               </h3>
               <p className='py-2'>
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
-              <h4 className='py-4 text-teal-600'>Design Tools I Use</h4>
-              <p className='text-gray-800 py-1'>Photoshop</p>
-              <p className='text-gray-800 py-1'>Illustrator</p>
-              <p className='text-gray-800 py-1'>Figma</p>
-              <p className='text-gray-800 py-1'>Indesign</p>
+              <h4 className='py-4 font-bold text-xl text-teal-600'>
+                Design Tools I Use
+              </h4>
+              <p className='text-gray-800 text-lg py-1'>Photoshop</p>
+              <p className='text-gray-800 text-lg py-1'>Illustrator</p>
+              <p className='text-gray-800 text-lg py-1'>Figma</p>
+              <p className='text-gray-800 text-lg py-1'>Indesign</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
               <Image src={code} width={100} height={100} alt='' />
-              <h3 className='text-lg font-medium pt-8 pb-2 '>
+              <h3 className='text-xl font-bold pt-8 pb-2 '>
                 Code your dream project
               </h3>
               <p className='py-2'>
                 Do you have an idea for your next great website? Let&apos;s make
                 it a reality.
               </p>
-              <h4 className='py-4 text-teal-600'>Design Tools I Use</h4>
-              <p className='text-gray-800 py-1'>Photoshop</p>
-              <p className='text-gray-800 py-1'>Illustrator</p>
-              <p className='text-gray-800 py-1'>Figma</p>
-              <p className='text-gray-800 py-1'>Indesign</p>
+              <h4 className='py-4 font-bold text-xl text-teal-600'>
+                Design Tools I Use
+              </h4>
+              <p className='text-gray-800 text-lg py-1'>Photoshop</p>
+              <p className='text-gray-800 text-lg py-1'>Illustrator</p>
+              <p className='text-gray-800 text-lg py-1'>Figma</p>
+              <p className='text-gray-800 text-lg py-1'>Indesign</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
               <Image src={consulting} width={100} height={100} alt='' />
-              <h3 className='text-lg font-medium pt-8 pb-2 '>Consulting</h3>
+              <h3 className='text-xl font-bold pt-8 pb-2 '>Consulting</h3>
               <p className='py-2'>
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              <h4 className='py-4 text-teal-600'>Design Tools I Use</h4>
-              <p className='text-gray-800 py-1'>Photoshop</p>
-              <p className='text-gray-800 py-1'>Illustrator</p>
-              <p className='text-gray-800 py-1'>Figma</p>
-              <p className='text-gray-800 py-1'>Indesign</p>
+              <h4 className='py-4 font-bold text-xl text-teal-600'>
+                Design Tools I Use
+              </h4>
+              <p className='text-gray-800 text-lg py-1'>Photoshop</p>
+              <p className='text-gray-800 text-lg py-1'>Illustrator</p>
+              <p className='text-gray-800 text-lg py-1'>Figma</p>
+              <p className='text-gray-800 text-lg py-1'>Indesign</p>
             </div>
           </div>
         </section>
