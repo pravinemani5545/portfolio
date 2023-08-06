@@ -114,7 +114,7 @@ export default function Home() {
                   About me!
                 </h2>
                 <p className='max-w-2xl mt-3 text-xl leading-relaxed text-gray-600 md:mt-8'>
-                Hello! I'm Pravine Manivannan, an enthusiastic and dedicated student with a passion for programming and technology. Currently pursuing my studies in Computer Engineering at McMaster University, I aspire to become a skilled developer and contribute to the ever-evolving world of technology.
+                Hello! I&apos;m Pravine Manivannan, an enthusiastic and dedicated student with a passion for programming and technology. Currently pursuing my studies in Computer Engineering at McMaster University, I aspire to become a skilled developer and contribute to the ever-evolving world of technology.
                 </p>
 
                 <p className='mt-4 text-xl text-gray-600 md:mt-8'>
