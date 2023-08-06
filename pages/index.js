@@ -105,7 +105,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section class='overflow-hidden bg-gray-50 my-8 rounded-2xl'>
+        <section class='overflow-hidden bg-gray-50 my-12 rounded-2xl'>
           <div class='mx-auto'>
             <div class='grid items-center grid-cols-1 md:grid-cols-2'>
               <div class='justify-start px-8 py-4'>
