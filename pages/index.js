@@ -76,7 +76,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className='bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8'
+                  className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8'
                   href='#'
                 >
                   Resume
@@ -106,14 +106,14 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='overflow-hidden bg-gray-50 my-12 rounded-2xl'>
+        <section className='overflow-hidden bg-gray-50 my-12 rounded-2xl dark:placeholder-gray-400 dark:bg-gray-800'>
           <div className='mx-auto'>
-            <div className='grid items-center grid-cols-1 md:grid-cols-2'>
-              <div className='justify-start px-8 py-4'>
-                <h2 className='text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl'>
+            <div className='grid items-center grid-cols-1 xl:grid-cols-2'>
+              <div className='px-8 py-4 my-8 xl:my-0'>
+                <h2 className='text-3xl font-bold leading-tight text-black sm:text-3xl lg:text-4xl xl:text-5xl dark:text-white'>
                   About me!
                 </h2>
-                <p className='max-w-2xl mt-3 text-xl leading-relaxed text-gray-600 md:mt-8'>
+                <p className='max-w-2xl mt-3 text-md lg:text-lg xl:text-xl leading-relaxed text-gray-600 md:mt-8 dark:text-white'>
                   Hello! I&apos;m Pravine Manivannan, an enthusiastic and
                   dedicated student with a passion for programming and
                   technology. Currently pursuing my studies in Computer
@@ -122,12 +122,12 @@ export default function Home() {
                   technology.
                 </p>
 
-                <p className='mt-4 text-xl text-gray-600 md:mt-8'>
+                <p className='mt-4 text-md md:text-lg lg:text-xl text-gray-600 md:mt-8 dark:text-white'>
                   <span className='relative inline-block'>
                     <span className='absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300'></span>
                     <span className='relative'> Have a question? </span>
                   </span>
-                  <br className='block sm:hidden' />
+                  <br className='block sm:hidden dark:text-white' />
                   Ask me on{' '}
                   <a
                     href='#'
@@ -139,7 +139,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className='relative justify-end'>
+              
                 <Image
                   src={toronto}
                   alt=''
@@ -150,7 +150,7 @@ export default function Home() {
                   src='toronto.jpg'
                   alt=''
                 /> */}
-              </div>
+             
             </div>
           </div>
         </section>
@@ -174,54 +174,54 @@ export default function Home() {
             </p>
           </div>
           <div className='lg:flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1'>
+            <div className='bg-gray-50 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 flex-1'>
               <Image src={design} width={100} height={100} alt='' />
-              <h3 className='text-xl font-bold pt-8 pb-2  '>
+              <h3 className='text-xl font-bold pt-8 pb-2 dark:text-white'>
                 Beautiful Designs
               </h3>
-              <p className='py-2'>
+              <p className='py-2 dark:text-white'>
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
-              <h4 className='py-4 font-bold text-xl text-teal-600'>
+              <h4 className='py-4 font-bold text-xl text-teal-400'>
                 Design Tools I Use
               </h4>
-              <p className='text-gray-800 text-lg py-1'>Photoshop</p>
-              <p className='text-gray-800 text-lg py-1'>Illustrator</p>
-              <p className='text-gray-800 text-lg py-1'>Figma</p>
-              <p className='text-gray-800 text-lg py-1'>Indesign</p>
+              <p className='text-gray-800 dark:text-white text-lg py-1'>Photoshop</p>
+              <p className='text-gray-800 dark:text-white text-lg py-1'>Illustrator</p>
+              <p className='text-gray-800 dark:text-white text-lg py-1'>Figma</p>
+              <p className='text-gray-800 dark:text-white text-lg py-1'>Indesign</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+            <div className='bg-gray-50 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1'>
               <Image src={code} width={100} height={100} alt='' />
-              <h3 className='text-xl font-bold pt-8 pb-2 '>
+              <h3 className='text-xl font-bold pt-8 pb-2 dark:text-white'>
                 Code your dream project
               </h3>
-              <p className='py-2'>
+              <p className='py-2 dark:text-white'>
                 Do you have an idea for your next great website? Let&apos;s make
                 it a reality.
               </p>
-              <h4 className='py-4 font-bold text-xl text-teal-600'>
+              <h4 className='py-4 font-bold text-xl text-teal-400'>
                 Design Tools I Use
               </h4>
-              <p className='text-gray-800 text-lg py-1'>Photoshop</p>
-              <p className='text-gray-800 text-lg py-1'>Illustrator</p>
-              <p className='text-gray-800 text-lg py-1'>Figma</p>
-              <p className='text-gray-800 text-lg py-1'>Indesign</p>
+              <p className='text-gray-800 dark:text-white text-lg py-1'>Photoshop</p>
+              <p className='text-gray-800 dark:text-white text-lg py-1'>Illustrator</p>
+              <p className='text-gray-800 dark:text-white text-lg py-1'>Figma</p>
+              <p className='text-gray-800 dark:text-white text-lg py-1'>Indesign</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+            <div className='bg-gray-50 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1'>
               <Image src={consulting} width={100} height={100} alt='' />
-              <h3 className='text-xl font-bold pt-8 pb-2 '>Consulting</h3>
-              <p className='py-2'>
+              <h3 className='text-xl font-bold pt-8 pb-2 dark:text-white'>Consulting</h3>
+              <p className='py-2 dark:text-white'>
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              <h4 className='py-4 font-bold text-xl text-teal-600'>
+              <h4 className='py-4 font-bold text-xl text-teal-400'>
                 Design Tools I Use
               </h4>
-              <p className='text-gray-800 text-lg py-1'>Photoshop</p>
-              <p className='text-gray-800 text-lg py-1'>Illustrator</p>
-              <p className='text-gray-800 text-lg py-1'>Figma</p>
-              <p className='text-gray-800 text-lg py-1'>Indesign</p>
+              <p className='text-gray-800 dark:text-white text-lg py-1'>Photoshop</p>
+              <p className='text-gray-800 dark:text-white text-lg py-1'>Illustrator</p>
+              <p className='text-gray-800 dark:text-white text-lg py-1'>Figma</p>
+              <p className='text-gray-800 dark:text-white text-lg py-1'>Indesign</p>
             </div>
           </div>
         </section>
@@ -258,13 +258,13 @@ export default function Home() {
                           <Link href={project.github} target='_blank'>
                             <BsGithub
                               size={30}
-                              className='hover:-translate-y-1 transition-transform cursor-pointer dark:text-white'
+                              className='text-teal-600 hover:-translate-y-1 transition-transform cursor-pointer dark:text-teal-600'
                             />
                           </Link>
                           <Link href={project.link} target='_blank'>
                             <BsArrowUpRightSquare
                               size={30}
-                              className='hover:-translate-y-1 transition-transform cursor-pointer dark:text-white'
+                              className='text-teal-600 hover:-translate-y-1 transition-transform cursor-pointer dark:text-teal-600'
                             />
                           </Link>
                         </div>
