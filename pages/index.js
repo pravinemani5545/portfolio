@@ -31,6 +31,13 @@ const projects = [
     link: 'https://gericht-pravinemani5545.vercel.app/',
   },
   {
+    name: 'Car Hub',
+    description: 'Car Hub is the best application to rent out cars from.',
+    image: '/carHub.png',
+    github: 'https://github.com/pravinemani5545/CarRents',
+    link: 'https://car-rents-pravinemani5545.vercel.app/',
+  },
+  {
     name: 'UsePopcorn',
     description: 'Rank and save all your favourite TV Shows & Movies',
     image: '/usePopcorn.png',
