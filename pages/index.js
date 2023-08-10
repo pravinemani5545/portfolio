@@ -18,6 +18,7 @@ import web4 from '../public/web4.png';
 import web5 from '../public/web5.png';
 import web6 from '../public/web6.png';
 import toronto from '../public/toronto.jpg';
+import prompty from '../public/prompty.jpg';
 import Link from 'next/link';
 import SlideUp from './SlideUp';
 import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
@@ -29,6 +30,13 @@ const projects = [
     image: '/gericht.png',
     github: 'https://github.com/pravinemani5545/gericht',
     link: 'https://gericht-pravinemani5545.vercel.app/',
+  },
+  {
+    name: 'Prompty',
+    description: 'Looking to share or find some of the best AI chatbot prompts, look no further!',
+    image: '/prompty.png',
+    github: 'https://github.com/pravinemani5545/prompty',
+    link: 'https://prompty-pravinemani5545.vercel.app/',
   },
   {
     name: 'Car Hub',
