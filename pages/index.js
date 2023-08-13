@@ -52,13 +52,13 @@ const projects = [
     github: 'https://github.com/pravinemani5545/usePopcorn',
     link: 'https://use-popcorn-pravinemani5545.vercel.app/',
   },
-  {
-    name: 'ClassyWeather',
-    description: 'ClassyWeather will help you find the weather near you!',
-    image: '/classyWeather.png',
-    github: 'https://github.com/pravinemani5545/classyWeather',
-    link: 'https://classy-weather-pravinemani5545.vercel.app/',
-  },
+  // {
+  //   name: 'ClassyWeather',
+  //   description: 'ClassyWeather will help you find the weather near you!',
+  //   image: '/classyWeather.png',
+  //   github: 'https://github.com/pravinemani5545/classyWeather',
+  //   link: 'https://classy-weather-pravinemani5545.vercel.app/',
+  // },
   {
     name: 'DormBuddy',
     description: 'Find University Rental opportunities near you!',
